@@ -2,12 +2,6 @@ from extracts.indeed import extract_indeed
 from extracts.wwr import extract_wwr
 import datetime
 
-
-
-
-
-
-
 keyword = input("언어를 말씀해주세요: ")
 
 indeedJobs = extract_indeed(keyword)
